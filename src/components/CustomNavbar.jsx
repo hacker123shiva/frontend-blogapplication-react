@@ -65,6 +65,27 @@ const CustomNavbar = () => {
                 Add Post
               </NavLink>
             </NavItem>
+
+            {/* add external link */}
+            <NavItem>
+              <NavLink
+                href="http://localhost:5080/filterblog"
+                target="_self"
+                rel="noreferrer"
+              >
+                Filter Content
+              </NavLink>
+            </NavItem>
+
+            <NavItem>
+              <NavLink
+                href="http://localhost:5080/generate"
+                target="_self"
+                rel="noreferrer"
+              >
+                Generate Blog content
+              </NavLink>
+            </NavItem>
           </Nav>
           <Nav navbar>
             {login && (
