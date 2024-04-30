@@ -3,7 +3,6 @@ import { getToken } from '../auth';
 
 // export const BASE_URL = 'http://54.165.53.22:9000/api/v1';
 export const BASE_URL = 'http://localhost:9000/api/v1';
-// export const BASE_URL = "https://apis.lcwdblogs.online/api/v1";
 
 export const myAxios = axios.create({
   baseURL: BASE_URL,
